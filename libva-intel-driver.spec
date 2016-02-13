@@ -25,7 +25,7 @@ BuildRequires:  pkgconfig(libva-wayland)
 %{summary}.
 
 %prep
-%autosetup -p1
+%autosetup
 
 %build
 %configure --enable-drm --enable-x11 --enable-wayland
